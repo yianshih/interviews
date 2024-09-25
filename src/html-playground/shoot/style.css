@@ -1,0 +1,31 @@
+#game-container {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+#target {
+    display: none;
+    position: relative;
+    top:0;
+    left: 0;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+#score {
+    font-size: 50px;
+}
+#round {
+    font-size: 50px;
+}
+
+#score::before {
+    content: "Score: ";
+}
+
+#round::before {
+    content: "Round: ";
+}
